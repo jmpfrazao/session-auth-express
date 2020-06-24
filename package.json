@@ -1,0 +1,31 @@
+{
+  "name": "session-auth-express",
+  "version": "1.0.0",
+  "description": "session management with express",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -fR dist/ && tsc",
+    "dev": "NODE_ENV=development tsc-watch --onSuccess \"node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmpfrazao/session-auth-express.git"
+  },
+  "author": "Miguel Frazão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmpfrazao/session-auth-express/issues"
+  },
+  "homepage": "https://github.com/jmpfrazao/session-auth-express#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tsc-watch": "^4.2.9",
+    "tslint": "^6.1.2",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
